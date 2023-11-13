@@ -1,30 +1,35 @@
-//generatore di tabelle di moltiplicazioni//
-/*const user = prompt('inserire un numero da 1 a 10');
+//generatore di tabelle di moltiplicazioni
+/*const user = prompt('inserisci un numero da 1 a 10');
 const userNumber = Number(user);
-let multiplyVal = 1;
-while(multiplyVal<=10){
-    console.log(userNumber + 'x' + multiplyVal + '=' + multiplyresult);
-    multiplyVal++;
-}*/
-
-//sostitutore di parole//
-/*let domandaUtente = prompt('scrivi una domanda');
-let CreaParole = prompt('parola per rispondere');
-let nuovaParola = prompt('nuova parola da usare');
-domandaUtente = domandaUtente.replaceAll(CreaParola, nuovaParola)
-console.log(domandaUtente);*/
+let valori = 1;
+while (valori<= 10){
+    console.log(userNumber + 'x' + valori)
+    valori ++;
+}
+/*
 
 
-//validatore di siti//
-/*let userUrl = prompt('iserisci un URL')
+//sostitutore di parole
+/*let userQuestion = prompt('inserisci una domanda');
+let userAnswer = prompt('inserisci una risposta');
+let userAnswer2 = prompt('inserisci la parola con cui sostituirla');
+let sostituire = userAnswer2.replaceAll(userAnswer);
+console.log(sostituire)*/
+
+
+//validatore di siti
+/*
+let userUrl = prompt('inserisci un URL');
 if(userUrl.startsWith("http://") || userUrl.startsWith("https://") && userUrl.endsWith(".com")){
     console.log("URL valido")
 }else {
     console.log("non è un URL valido")
-}*/
+}
+*/
 
-//sfida lancio dato//
-let userVince = 0;
+
+//sfida lancio dato
+/*let userVince = 0;
 let botVince = 0;
 do{
     let random1 = Math.random() *6;
@@ -50,7 +55,7 @@ do{
         if(giocaDiNuovo === No) {
         break;
     }
-}while(true);
+}while(true);*/
 
 //indovinello//
    /*let random = Math.random() *10;
@@ -65,3 +70,6 @@ if(user > numeroRandom){
 }else if (user === numeroRandom){
     alert("congratulazioni hai vinto")
 } */
+
+
+//---esercizio 
